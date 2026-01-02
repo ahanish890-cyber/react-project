@@ -1,0 +1,129 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+      },
+      "image": "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg",
+      "caption": "Beautiful sunset at the beach 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        { "user": "alice_wonder", "comment": "Wow! Amazing shot 📸" },
+        { "user": "mark_92", "comment": "Where is this place?" }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "emma_rose",
+        "profile_pic": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+      },
+      "image": "https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg",
+      "caption": "Adventure time ✈️ Loving this view!",
+      "likes": 356,
+      "comments": [
+        { "user": "john_doe", "comment": "This looks amazing 🔥" }
+      ],
+      "timestamp": "2025-02-12T09:10:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "linda_smith",
+        "profile_pic": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+      },
+      "image": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg",
+      "caption": "Morning hike in the mountains ⛰️ #FreshAir",
+      "likes": 210,
+      "comments": [
+        { "user": "emma_rose", "comment": "So peaceful 😍" }
+      ],
+      "timestamp": "2025-02-13T08:00:00Z"
+    },
+   
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "sarah_connor",
+        "profile_pic": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+      },
+      "image": "https://images.pexels.com/photos/34950/pexels-photo.jpg",
+      "caption": "Weekend getaway 🏞️ #RelaxTime",
+      "likes": 320,
+      "comments": [
+        { "user": "emma_rose", "comment": "Looks relaxing 😌" }
+      ],
+      "timestamp": "2025-02-15T10:20:00Z"
+    }
+  ],
+
+  "profile": {
+    "id": 100,
+    "username": "hanish_890",
+    "full_name": "Hani🦋",
+    "profile_pic": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+  },
+
+  "suggestions": [
+    {
+      "id": 201,
+      "username": "jane_doe",
+      "profile_pic": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    {
+      "id": 202,
+      "username": "alex_johnson",
+      "profile_pic": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+    },
+    {
+      "id": 203,
+      "username": "maya_wilson",
+      "profile_pic": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+    },
+    {
+      "id": 205,
+      "username": "neha_verma",
+      "profile_pic": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+    },
+    {
+      "id": 206,
+      "username": "arjun_mehta",
+      "profile_pic": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+    }
+  ],
+
+  "stories": [
+    {
+      "id": 201,
+      "username": "jane_doe",
+      "profile_pic": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+    },
+    {
+      "id": 202,
+      "username": "alex_johnson",
+      "profile_pic": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+    },
+    {
+      "id": 203,
+      "username": "maya_wilson",
+      "profile_pic": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+    },
+    {
+      "id": 205,
+      "username": "neha_verma",
+      "profile_pic": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+    },
+    {
+      "id": 206,
+      "username": "arjun_mehta",
+      "profile_pic": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+    }
+  ]
+}
