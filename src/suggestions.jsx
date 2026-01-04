@@ -21,7 +21,7 @@ function suggestions() {
     }, []);
 
     return (
-        <div>
+        <div className='suggestion-content'>
             {profile ?
                 <div className='d-flex align-items-center p-4 '>
                     <img src={profile.profile_pic} alt="Profile" width="50" height="50" className='rounded-circle me-2' />
@@ -30,20 +30,19 @@ function suggestions() {
                         <span className='text-muted'>{profile.full_name}</span>
 
                     </div>
-                    <div className='text-primary'>switch</div>
+                    <div className='text-primary switch'>switch</div>
 
 
                 </div> : <p>Loading profile...</p>}
 
-            <h5 id="suggestion" className=' px-5 mb-3'>Suggestions For You <span className='span'>See All</span></h5>
+            <h5 id="suggestion" className=' px-5 mb-3 text-secondary'>Suggestions For You <span className='span'>See All</span></h5>
 
 
             {suggestions.length > 0 ? (
                 suggestions.map((user) => (
                     <div
                         key={user.id}
-                        className="d-flex align-items-center justify-content-between mb-3 px-5"
-                    >
+                        className="d-flex align-items-center justify-content-between mb-3 px-5">
                         <div className="d-flex align-items-center">
                             <img
                                 src={user.profile_pic}
@@ -57,14 +56,20 @@ function suggestions() {
 
                         <div className="text-primary follow-btn">Follow</div>
                     </div>
+
                 ))
-             
+
             ) : (
                 <p>Loading suggestions...</p>
             )}
-
+            <div className='sugg-footer' >
+                <div className='footer-links'>About · Help · Press · API · Jobs · Privacy · Terms · <br/>Locations · Language · Meta Verified</div>
+                <div className='mt-4' > @2026 INSTAGRAM FROM META</div>
+            </div>
         </div>
+
     );
 }
+
 
 export default suggestions

@@ -7,6 +7,7 @@ function Feed() {
     <>
       <Story />
       <Posts />
+      
     </>
   )
 }

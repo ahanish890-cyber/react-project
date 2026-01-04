@@ -10,6 +10,8 @@ function Posts() {
       .catch((err) => console.error("Error fetching posts:", err));
   }, []);
 
+  
+
   return (
     <div className="posts-content">
       {posts.length === 0 ? (
@@ -55,3 +57,4 @@ function Posts() {
 }
 
 export default Posts;
+
